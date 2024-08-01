@@ -11,3 +11,5 @@ function add(a, b)
 {
   return(a + d);
 }
+
+add(1, 2); //This code will throw an error.
