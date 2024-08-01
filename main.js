@@ -13,3 +13,4 @@ function add(a, b)
 }
 
 add(1, 2); //This code will throw an error.
+_debug(add, 1, 2); //This code will still throw an error but will alert the developer.
