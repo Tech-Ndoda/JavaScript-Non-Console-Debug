@@ -12,5 +12,5 @@ function add(a, b)
   return(a + d);
 }
 
-add(1, 2); //This code will throw an error.
-_debug(add, 1, 2); //This code will still throw an error but will alert the developer.
+_debug(add, 1, 2); //This code will throw an error and alert the developer.
+add(1, 2); //This code will still throw an error but won't alert if there's no console.
