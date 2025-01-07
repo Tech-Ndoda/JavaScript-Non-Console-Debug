@@ -9,7 +9,7 @@
 
 function add(a, b)
 {
-  return(a + d);
+   return(a + d);
 }
 
 _debug(add, 1, 2); //This code will throw an error and alert the developer.
